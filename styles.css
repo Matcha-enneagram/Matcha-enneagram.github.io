@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 @font-face {
     font-family: 'Samarata';
-    src: url('fonts/Samarata.ttf') format('truetype');
+    src: url('fonts/samarata.regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'WichyLover';
+    src: url('fonts/WichyLover-nAAgO.ttf') format('truetype');
+}
+
 
 
 /* General Reset */
@@ -13,7 +19,7 @@
 
 /* Body Styling */
 body {
-    font-family: "Samarata", sans-serif;
+    font-family: "Raleway", sans-serif;
     line-height: 1.6;
     background-color: #b2fba5;
     color: #333;
