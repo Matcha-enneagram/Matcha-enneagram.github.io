@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Samarata';
+    src: url('fonts/Samarata.ttf') format('truetype');
+}
+
+
 /* General Reset */
 *{
     margin: 0;
