@@ -115,7 +115,8 @@ nav ul li a{
 }
 
 .chibi-text{
-    align-items: center;
+    align-items: center; 
+    margin-top: 20px;
     font-size: 20px;
     font-family: "Raleway", sans-serif;
     margin-top: 10px;
