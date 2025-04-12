@@ -26,6 +26,7 @@ body {
     padding: 20px;
 }
 
+/* Navigation Bar Styling */
 nav{
     padding: 10px;
     display: flex;
@@ -33,6 +34,7 @@ nav{
     justify-content: space-between;
 }
 
+/* Logo Styling */
 .logo{
     width: 140px;
 }
