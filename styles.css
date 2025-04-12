@@ -52,3 +52,31 @@ nav ul li a{
     font-family: "WichyLover", sans-serif;
     transition: all 0.3s ease;  
 }
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    text-align: center;;
+}
+
+.content h1{
+    font-size: 70px;
+    font-family: "WichyLover", sans-serif;
+    margin-bottom: 20px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    letter-spacing: 2px;    
+}
+
+.content p{
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    letter-spacing: 1px;    
+}
