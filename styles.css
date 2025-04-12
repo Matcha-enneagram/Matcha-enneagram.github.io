@@ -80,3 +80,37 @@ nav ul li a{
     text-align: center;
     letter-spacing: 1px;    
 }
+
+.chibis{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.chibis ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+.chibis ul li img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;  
+}
+.chibis ul li img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.chibis ul li img:active{
+    transform: scale(0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.chibis ul li img:focus{
+    outline: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
