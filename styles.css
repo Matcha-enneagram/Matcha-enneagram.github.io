@@ -26,38 +26,26 @@ body {
     padding: 20px;
 }
 
-/*Navigation Bar Styling*/
-.navbar {
-    padding: 10px 0;
+nav{
+    padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;;
+    justify-content: space-between;
 }
 
-/* Logo Styling */
-.logo {
+.logo{
     width: 140px;
 }
-/* Main Content Styling */
-main {
-    margin: 20px auto;
-    max-width: 800px;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
 }
 
-/* Footer Styling */
-footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px 0;
-    background: #0078d7;
-    color: #fff;
-    border-radius: 8px;
-}
-
-footer p {
-    font-size: 0.9rem;
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    font-family: "WichyLover", sans-serif;
 }
